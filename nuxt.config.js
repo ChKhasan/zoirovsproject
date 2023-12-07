@@ -68,6 +68,17 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     vendor: ["aos"],
+    babel: {
+      compact: true,
+    },
+    standalone: true,
+    extend(config, ctx) {
+      config.externals = [
+        {
+          encoding: "encoding",
+        },
+      ];
+    },
   },
   target: "server",
 };

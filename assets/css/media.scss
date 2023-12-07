@@ -34,7 +34,6 @@
     }
   }
   .nav_menu {
-    width: calc(100vw - (90vw - 1000px) / 2 - 76px);
   }
 }
 @media (max-width: 1440px) {
@@ -89,7 +88,6 @@
     &_text h1 {
       font-size: 46px;
     }
-
   }
   .footer_contact {
     margin-bottom: 48px;
@@ -153,7 +151,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    color: #020105;
+    color: white;
   }
   .nav_btn {
     gap: 6px;
@@ -370,7 +368,7 @@
           font-size: 16px;
           font-family: T1Interfaces;
           line-height: 140%;
-          color: #020105;
+          color: white;
         }
         span {
           font-family: T1Interfaces;
@@ -475,7 +473,7 @@
       font-weight: 400;
       font-size: 24px;
       line-height: 120%;
-      color: #020105;
+      color: white;
     }
 
     &_info {

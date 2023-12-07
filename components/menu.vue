@@ -5,7 +5,11 @@
         <div class="flex flex-col justify-between h-100">
           <div class="row py-24 px-30 sm_p-0">
             <div class="col-5 open-navbar">
-              <nuxt-link @click.native="$emit('close', false)" class="flex" to="/">
+              <nuxt-link
+                @click.native="$emit('close', false)"
+                class="flex"
+                to="/"
+              >
                 <img class="nav-logo" src="~/assets/svg/logo.svg" alt="err" />
               </nuxt-link>
             </div>
@@ -14,22 +18,55 @@
                 @click="$emit('close', false)"
                 class="nav_btn flex items-center gap-6"
               >
-                <img src="@/assets/svg/close.svg" alt="" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="31"
+                  viewBox="0 0 32 31"
+                  fill="none"
+                >
+                  <line
+                    x1="1.1508"
+                    y1="29.2929"
+                    x2="29.4351"
+                    y2="1.00862"
+                    stroke="white"
+                    stroke-width="2"
+                  />
+                  <line
+                    x1="2.56502"
+                    y1="1.15129"
+                    x2="30.8493"
+                    y2="29.4356"
+                    stroke="white"
+                    stroke-width="2"
+                  />
+                  <line
+                    x1="2.56502"
+                    y1="1.29289"
+                    x2="30.8493"
+                    y2="29.5772"
+                    stroke="white"
+                    stroke-width="2"
+                  />
+                </svg>
                 {{ $store.state.translations["main.nav_close"] }}
               </button>
             </div>
           </div>
           <div class="flex justify-center items-end">
             <div class="flex b-menu-m flex-col gap-24 justify-center">
-              <nuxt-link @click.native="$emit('close', false)" :to="localePath('/')">{{
-                $store.state.translations["main.nav_home"]
-              }}</nuxt-link>
+              <nuxt-link
+                @click.native="$emit('close', false)"
+                :to="localePath('/')"
+                >{{ $store.state.translations["main.nav_home"] }}</nuxt-link
+              >
               <nuxt-link
                 @click.native="$emit('close', false)"
                 :to="localePath('/catalog')"
                 >{{ $store.state.translations["main.nav_catalog"] }}</nuxt-link
               >
-              <nuxt-link
+              <!-- <nuxt-link
                 @click.native="$emit('close', false)"
                 :to="localePath('/about')"
                 >{{ $store.state.translations["main.nav_company"] }}</nuxt-link
@@ -38,7 +75,7 @@
                 @click.native="$emit('close', false)"
                 :to="localePath('/contact')"
                 >{{ $store.state.translations["main.nav_contact"] }}</nuxt-link
-              >
+              > -->
             </div>
           </div>
           <div class="flex gap-24 flex-col">
@@ -58,7 +95,9 @@
               </div>
             </div>
             <div class="flex flex-col gap-24">
-              <div class="b-menu_contact flex justify-between items-center px-30">
+              <div
+                class="b-menu_contact flex justify-between items-center px-30"
+              >
                 <a :href="`mailto:${$store.state.static_info['email']}`">{{
                   $store.state.static_info["email"]
                 }}</a>
@@ -77,7 +116,9 @@
                   >
                 </div>
               </div>
-              <div class="flex b-menu_contact justify-between p-30 justify-between">
+              <div
+                class="flex b-menu_contact justify-between p-30 justify-between"
+              >
                 <a :href="$store.state.static_info['telegram']">Telegram</a>
                 <a :href="$store.state.static_info['instagram']">Instagram</a>
                 <a :href="$store.state.static_info['facebook']">Facebook</a>
@@ -123,9 +164,10 @@ export default {
   async fetch() {
     const project = await this.$axios.get("/random_project");
     this.project = project?.data;
-    this.projectImg = this.project?.images[
-      Math.floor(Math.random() * this.project?.images.length)
-    ];
+    this.projectImg =
+      this.project?.images[
+        Math.floor(Math.random() * this.project?.images.length)
+      ];
   },
 };
 </script>

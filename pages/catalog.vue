@@ -1,8 +1,8 @@
 <template>
   <div class="">
     <div class="section mt-176">
-      <div class="nav_menu ml-auto mr-30">
-        <div class="flex justify-between items-center gap-24">
+      <div class="nav_menu ml-auto mr-30 piece__of__shit">
+        <div class="flex justify-between items-center gap-24 port__header">
           <h1 data-aos="fade-right" data-aos-duration="1000">
             {{ $store.state.translations["main.nav_catalog"] }}
           </h1>
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <div class="" v-if="loading" >
+      <div class="" v-if="loading">
         <carouselComponent
           :res_item="3"
           v-if="projects[0]"
