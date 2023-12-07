@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="master">
     <div class="section mt-176">
       <div class="nav_menu ml-auto mr-30 piece__of__shit">
         <div class="flex justify-between items-center gap-24 port__header">
@@ -159,3 +159,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.master {
+  overflow-x: hidden;
+}
+</style>

@@ -275,4 +275,6 @@ export default {
     transform: translateX(0%);
   }
 }
+@media screen and (max-width: 1024px) {
+}
 </style>
