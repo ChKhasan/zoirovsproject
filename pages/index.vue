@@ -3,7 +3,7 @@
     <div class="section mt-176 hero">
       <HomeSwiper />
       <HomeAbout />
-      <HomeServices />
+      <HomeServices :reviews="reviews" />
     </div>
 
     <div class="section mt-120 sm_mt-32">
@@ -14,7 +14,9 @@
         data-aos-offset="300"
       >
         <div class="port__header">
-          <h1 class="port__title">Bizning ishlarimiz</h1>
+          <h1 class="port__title">
+            {{ $store.state.translations["main.our-works"] }}
+          </h1>
 
           <div class="flex gap-16 label_tag tags">
             <button @click="tab = ''" :class="{ active: tab == '' }">
@@ -35,7 +37,7 @@
         <carouselComponent
           v-if="projects[0]"
           class="mt-45 owl-item-3"
-          :res_item="2"
+          :res_item="1.3"
           :item="4"
           :projects="projects[0]"
         />
@@ -43,7 +45,7 @@
           <carouselComponent
             v-if="projects[1]"
             class="mt-45 owl-item-3"
-            :res_item="2"
+            :res_item="1.3"
             :item="5"
             :projects="project"
           />
@@ -78,10 +80,9 @@
                 data-aos-duration="800"
                 data-aos-offset="400"
               >
-                <h1>Buyurtma berish</h1>
+                <h1>{{ $store.state.translations["main.order-it"] }}</h1>
                 <span>
-                  Hizmatlarimizdan foydlanish uchun ariza qoldiring va bizning
-                  managerlarimiz sizga aloqaga chiqishadi
+                  {{ $store.state.translations["main.form-txt"] }}
                 </span>
                 <div class="flex flex-col">
                   <input
@@ -179,14 +180,20 @@
                     />
                   </svg>
                 </div>
-                <h4 class="title">Sizning qongirogingiz biz uchun muhim</h4>
+                <h4 class="title">
+                  {{ $store.state.translations["main.your-call"] }}
+                </h4>
                 <img
                   src="@/assets/images/Rectangle 1305801.png"
                   alt=""
                   class="person"
                 />
-                <p class="name">MuhammadAzim Rasulov</p>
-                <p class="sub">Manager</p>
+                <p class="name">
+                  {{ $store.state.translations["main.manager-name"] }}
+                </p>
+                <p class="sub">
+                  {{ $store.state.translations["main.manager-manager"] }}
+                </p>
               </div>
             </div>
           </div>

@@ -27,14 +27,14 @@
       </div>
       <div class="" v-if="loading">
         <carouselComponent
-          :res_item="3"
+          :res_item="1.3"
           v-if="projects[0]"
           class="mt-45 owl-item-3"
           :item="3"
           :projects="projects[0]"
         />
         <carouselComponent
-          :res_item="3"
+          :res_item="1.3"
           v-for="(el, index) in projects?.slice(1)"
           :key="index"
           class="mt-90 sm_mt-32 owl-item-5"

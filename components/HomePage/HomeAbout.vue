@@ -184,67 +184,263 @@
         </defs>
       </svg>
     </div>
+    <div class="mobile__vector">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="393"
+        height="358"
+        viewBox="0 0 393 358"
+        fill="none"
+      >
+        <g opacity="0.3">
+          <path
+            d="M500.613 161.791C493.63 84.4811 427.104 -16.7352 334.233 3.65778C248.127 22.5655 288.977 77.7406 216.673 114.119C144.368 150.499 66.4985 72.4529 -1.43586 121.685C-40.8661 150.26 -50.0675 205.717 -16.0345 255.637C17.9955 305.555 95.2566 349.932 228.753 356.353C354.855 362.416 423.834 325.003 460.781 280.462C497.728 235.918 502.641 184.247 500.613 161.791Z"
+            stroke="url(#paint0_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M233.275 349.938C348.926 355.645 412.584 321.585 446.867 280.738C480.848 240.112 485.727 192.884 484.099 171.858C478.292 100.308 417.331 6.49495 331.441 23.3141C252.134 38.844 287.035 88.4202 220.201 121.488C218.329 122.407 216.418 123.265 214.471 124.058C162.658 145.191 108.306 110.16 58.0655 116.194C44.4266 117.832 31.0668 122.439 18.2181 131.98C-18.7409 159.427 -26.7913 210.861 5.01197 256.844C37.0285 303.025 109.444 343.733 233.275 349.938Z"
+            stroke="url(#paint1_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M237.796 343.522C342.996 348.872 401.333 318.167 432.954 281.014C463.968 244.306 468.888 201.518 467.584 181.926C463.208 116.122 407.576 29.7314 328.648 42.9711C256.157 55.1307 285.212 99.2836 223.729 128.856C221.957 129.708 220.175 130.479 218.394 131.189C170.316 150.407 120.164 120.303 74.298 127.054C61.7724 128.898 49.529 133.376 37.869 142.277C3.38433 168.604 -3.51512 216.004 26.0584 258.055C56.0647 300.498 123.635 337.531 237.796 343.522Z"
+            stroke="url(#paint2_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M242.318 337.104C337.067 342.102 390.192 314.82 419.041 281.287C447.194 248.566 452.005 210.155 451.07 191.993C447.976 131.948 397.843 52.9771 325.856 62.6272C260.199 71.4283 283.317 110.043 227.256 136.223C225.617 136.989 223.965 137.679 222.317 138.319C177.975 155.623 132.015 130.456 90.5305 137.913C79.1182 139.965 67.9945 144.319 57.5199 152.573C25.5159 177.794 19.7611 221.147 47.1048 259.262C75.1009 297.968 137.823 331.331 242.318 337.104Z"
+            stroke="url(#paint3_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M246.84 330.689C331.126 335.481 378.972 311.421 405.127 281.563C430.342 252.776 435.119 218.792 434.556 202.059C432.725 147.777 388.139 76.2384 323.064 82.2827C264.265 87.7442 281.412 120.791 230.784 143.59C229.277 144.269 227.756 144.878 226.239 145.449C185.633 160.838 143.86 140.622 106.763 148.772C96.464 151.035 86.4661 155.269 77.1738 162.868C47.6568 187 42.9338 226.345 68.1512 260.473C94.0304 295.498 151.998 325.298 246.84 330.689Z"
+            stroke="url(#paint4_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M251.362 324.276C325.195 328.735 367.748 308.025 391.214 281.842C413.485 256.989 418.227 227.434 418.041 212.128C417.449 163.611 378.469 99.5295 320.271 101.941C268.361 104.092 279.493 131.527 234.312 150.96C232.936 151.552 231.546 152.079 230.162 152.581C193.291 166.056 155.699 150.81 122.995 159.634C113.807 162.113 104.947 166.231 96.8247 173.166C69.8103 196.23 66.1943 231.5 89.1977 261.683C113.051 292.981 166.183 319.132 251.362 324.276Z"
+            stroke="url(#paint5_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M255.883 317.858C319.263 321.976 356.516 304.623 377.3 282.115C396.619 261.194 401.327 236.074 401.526 222.195C402.141 179.448 368.84 122.866 317.478 121.598C272.49 120.486 277.556 142.24 237.84 158.328C236.595 158.832 235.336 159.279 234.085 159.712C200.95 171.272 167.538 161.025 139.228 170.493C131.146 173.195 123.435 177.202 116.476 183.462C91.9857 205.486 89.4611 236.65 110.244 262.894C132.075 290.462 180.367 312.954 255.883 317.858Z"
+            stroke="url(#paint6_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M260.405 311.443C313.332 315.205 345.273 301.216 363.386 282.391C379.741 265.394 384.413 244.716 385.011 232.262C386.788 195.288 359.498 144.211 314.685 141.254C276.436 138.73 275.597 152.922 241.367 165.696C240.253 166.111 239.126 166.48 238.006 166.843C208.608 176.488 179.383 171.275 155.457 181.353C148.489 184.288 141.938 188.186 136.126 193.758C114.202 214.78 112.737 241.795 131.291 264.101C151.111 287.937 194.552 306.763 260.405 311.443Z"
+            stroke="url(#paint7_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M264.927 305.028C307.402 308.413 334.011 297.798 349.473 282.667C362.844 269.579 367.48 253.358 368.497 242.331C371.375 211.128 349.662 169.844 311.893 160.91C280.815 153.559 273.61 163.556 244.895 173.063C243.911 173.389 242.916 173.679 241.929 173.973C216.267 181.704 191.253 181.574 171.693 192.212C165.838 195.395 160.459 199.184 155.777 204.054C136.484 224.127 136.032 246.932 152.337 265.312C170.159 285.405 208.74 300.549 264.927 305.028Z"
+            stroke="url(#paint8_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M264.359 294.708C300.718 297.664 323.421 289.085 336.561 276.757C347.924 266.096 351.795 252.831 352.601 243.801C354.882 218.258 336.064 184.352 303.698 176.872C277.068 170.717 270.961 178.874 246.45 186.536C245.61 186.799 244.761 187.032 243.918 187.269C222.008 193.49 200.605 193.276 183.933 201.904C178.944 204.486 174.365 207.566 170.388 211.535C153.996 227.892 153.745 246.568 167.801 261.691C183.168 278.224 216.262 290.798 264.359 294.708Z"
+            stroke="url(#paint9_linear_1072_546)"
+            stroke-width="0.87"
+            stroke-miterlimit="10"
+          />
+        </g>
+        <defs>
+          <linearGradient
+            id="paint0_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint1_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint2_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint3_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint4_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint5_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint6_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint7_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint8_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint9_linear_1072_546"
+            x1="265.86"
+            y1="171.868"
+            x2="251.756"
+            y2="293.448"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#EBEBEB" />
+            <stop offset="1" stop-color="#EBEBEB" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
     <div class="container">
       <div class="brand">
         <img src="@/assets/images/mid.svg" alt="" />
       </div>
       <h4 class="title">
-        <span>0 dan </span> boshlab uyingizni bitirib beramiz
+        <span>{{ $store.state.translations["main.from-zero"] }} </span>
+        {{ $store.state.translations["main.about-title"] }}
       </h4>
       <p class="sub">
-        Biz kalit topshiriqlarni bajaramiz, ya'ni noldan loyiha ishlab chiqamiz,
-        qurilish va nazorat ishlarini bajaramiz va siz ko'chib kelganingizdan
-        so'ng mulkka xizmat ko'rsatamiz. Bundan tashqari, ixtiyoriy ravishda,
-        quyida tavsiflanganlardan bir yoki bir nechta xizmatlarni tanlashingiz
-        mumkin.
+        {{ $store.state.translations["main.about-txt"] }}
       </p>
       <div class="items">
         <div class="item">
-          <p class="num">40+</p>
-          <p class="txt">Bacharilgan loyihalar</p>
+          <p class="num">{{ $store.state.translations["main.num-1"] }}</p>
+          <p class="txt">{{ $store.state.translations["main.num_txt-1"] }}</p>
         </div>
         <div class="item">
-          <p class="num">40+</p>
-          <p class="txt">Bacharilgan loyihalar</p>
+          <p class="num">{{ $store.state.translations["main.num-2"] }}</p>
+          <p class="txt">{{ $store.state.translations["main.num_txt-2"] }}</p>
         </div>
         <div class="item">
-          <p class="num">40+</p>
-          <p class="txt">Bacharilgan loyihalar</p>
+          <p class="num">{{ $store.state.translations["main.num-3"] }}</p>
+          <p class="txt">{{ $store.state.translations["main.num_txt-3"] }}</p>
         </div>
       </div>
-      <p class="par">Loyiha ekspertlari</p>
+      <p class="par">{{ $store.state.translations["main.experts"] }}</p>
       <div class="persons">
         <div class="person">
           <div class="img">
             <img src="@/assets/images/Rectangle 1305801.png" alt="" />
           </div>
-          <p class="name">Abduqodir Zoirov</p>
-          <p class="status">Interer va ekteryer dizayn boycha eksper</p>
+          <p class="name">{{ $store.state.translations["main.person-1"] }}</p>
+          <p class="status">
+            {{ $store.state.translations["main.person_txt-1"] }}
+          </p>
         </div>
         <div class="person">
           <div class="img">
             <img src="@/assets/images/Rectangle 1305801.png" alt="" />
           </div>
-          <p class="name">Abduqodir Zoirov</p>
-          <p class="status">Interer va ekteryer dizayn boycha eksper</p>
+          <p class="name">{{ $store.state.translations["main.person-2"] }}</p>
+          <p class="status">
+            {{ $store.state.translations["main.person_txt-2"] }}
+          </p>
         </div>
         <div class="person">
           <div class="img">
             <img src="@/assets/images/Rectangle 1305801.png" alt="" />
           </div>
-          <p class="name">Abduqodir Zoirov</p>
-          <p class="status">Interer va ekteryer dizayn boycha eksper</p>
+          <p class="name">{{ $store.state.translations["main.person-3"] }}</p>
+          <p class="status">
+            {{ $store.state.translations["main.person_txt-3"] }}
+          </p>
         </div>
       </div>
       <div class="button">
-        <button>Buyurtma berish</button>
+        <button @click="scrollElement('feedback')">
+          {{ $store.state.translations["main.order-it"] }}
+        </button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollElement(id) {
+      const element = document.getElementById(id);
+      element.scrollIntoView({ block: "center", behavior: "smooth" });
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -312,10 +508,10 @@ export default {};
 }
 .txt {
   color: var(--White, #fff);
-  font-family: Bebas;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: 0.8px;
 }
@@ -347,7 +543,7 @@ export default {};
 .status {
   color: var(--ffda-79, #ffda79);
   text-align: center;
-  font-family: Bebas;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -391,12 +587,17 @@ export default {};
   width: 100%;
   max-width: 894px;
 }
+.mobile__vector {
+  display: none;
+}
 @media screen and (max-width: 1024px) {
   .title {
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
+    max-width: 90%;
+    margin: 0 auto 16px auto;
   }
   .container {
     padding: 0 16px;
@@ -420,7 +621,7 @@ export default {};
   .txt {
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 150%; /* 24px */
     letter-spacing: 0.64px;
   }
@@ -428,8 +629,8 @@ export default {};
     display: none;
   }
   .person img {
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
   }
   .items {
     margin-bottom: 40px;
@@ -443,10 +644,18 @@ export default {};
   }
   .persons {
     margin-bottom: 32px;
+    gap: 16px;
   }
   .button button {
     padding: 12px;
     border-radius: 8px;
+  }
+  .mobile__vector {
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 </style>

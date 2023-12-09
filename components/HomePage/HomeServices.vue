@@ -1,80 +1,21 @@
 <template>
   <div class="wrap">
     <div class="container">
-      <h4 class="title">Bizning hizmatlar</h4>
+      <h4 class="title">
+        {{ $store.state.translations["main.our-services"] }}
+      </h4>
       <div class="items">
-        <div class="item">
+        <div v-for="item in reviews" :key="item.id" class="item">
           <div class="left">
             <p class="name">
-              <span> Arxitektura </span> chizmasini chizib beramiz
+              {{ item.name }}
             </p>
-            <p class="sub">
-              Воплотите дом своей мечты в жизнь с помощью индивидуального
-              дизайна и подобранных вручную продуктов, адаптированных к вашему
-              стилю, пространству и бюджету.
-            </p>
+            <div class="sub" v-html="item.text"></div>
           </div>
           <div class="right">
-            <button>Buyurtma berish</button>
-          </div>
-        </div>
-        <div class="item">
-          <div class="left">
-            <p class="name">
-              Sizga va oyilangiz talablaridan kelib chiqib
-              <span> uyingiz dizaynini </span>
-              chizib beramiz
-            </p>
-            <p class="sub">
-              Воплотите дом своей мечты в жизнь с помощью индивидуального
-              дизайна и подобранных вручную продуктов, адаптированных к вашему
-              стилю, пространству и бюджету.
-            </p>
-          </div>
-          <div class="right">
-            <button>Buyurtma berish</button>
-          </div>
-        </div>
-        <div class="item">
-          <div class="left">
-            <p class="name">
-              <span> Qurilish jarayonini nazorat </span> qilib beramiz
-              (Avtorskiy nadzor)
-            </p>
-            <p class="sub">
-              Воплотите дом своей мечты в жизнь с помощью индивидуального
-              дизайна и подобранных вручную продуктов, адаптированных к вашему
-              стилю, пространству и бюджету.
-            </p>
-          </div>
-          <div class="right">
-            <button>Buyurtma berish</button>
-          </div>
-        </div>
-        <div class="item">
-          <div class="left">
-            <p class="name">Mebelchilarni topib beramiz</p>
-            <p class="sub">
-              Воплотите дом своей мечты в жизнь с помощью индивидуального
-              дизайна и подобранных вручную продуктов, адаптированных к вашему
-              стилю, пространству и бюджету.
-            </p>
-          </div>
-          <div class="right">
-            <button>Buyurtma berish</button>
-          </div>
-        </div>
-        <div class="item">
-          <div class="left">
-            <p class="name">Qurilish va remont xizmatlarini ko’rsatamiz</p>
-            <p class="sub">
-              Воплотите дом своей мечты в жизнь с помощью индивидуального
-              дизайна и подобранных вручную продуктов, адаптированных к вашему
-              стилю, пространству и бюджету.
-            </p>
-          </div>
-          <div class="right">
-            <button>Buyurtma berish</button>
+            <button @click="scrollElement('feedback')">
+              {{ $store.state.translations["main.order-it"] }}
+            </button>
           </div>
         </div>
       </div>
@@ -83,7 +24,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["reviews"],
+
+  mounted() {
+    console.log(this.reviews);
+  },
+
+  methods: {
+    scrollElement(id) {
+      const element = document.getElementById(id);
+      element.scrollIntoView({ block: "center", behavior: "smooth" });
+    },
+  },
+};
 </script>
 
 <style scoped>
