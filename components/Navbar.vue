@@ -62,7 +62,7 @@
         >
         <div class="flex gap-24">
           <div class="soc">
-            <a href="#">
+            <a target="_blank" :href="$store.state.static_info['instagram']">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -80,7 +80,7 @@
             </a>
           </div>
           <div class="soc">
-            <a href="#">
+            <a target="_blank" :href="$store.state.static_info['telegram']">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
